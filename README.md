@@ -1,14 +1,3 @@
-Today 12:12 AM
-97097c2b-f852-459d-b65c-a28e512fecea.tex
-File
-ths is latex resume search a github project  which is perfectly match with latex resume project  and compine that project present as portfolio 
-0c173f08-c0d0-4490-8451-af4ea78a5aad.tex
-File
-search a github and give the best match project in this latex resume
-
-Exactly — the issue was the outer code fence.
-
-Use this clean file instead:
 
 Download the fixed README.md
 
