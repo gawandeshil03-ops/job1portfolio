@@ -1,424 +1,534 @@
+<div align="center">
 
-Download the fixed README.md
+# 📊 SHIL GAWANDE
 
-Upload it directly to GitHub as README.md, or open it and copy only the content inside. Do not add an extra ```markdown at the beginning or ``` at the end.
+## Analytics Project Portfolio
 
-The internal Mermaid blocks should remain; GitHub will render those as diagrams. 
+### Data Analytics • Business Intelligence • Product Analytics • Supply Chain Analytics
 
-README.md
-Document
-if you are anable to build then give simple interactive durect page
+**Turning business problems into data-driven decisions using SQL, Python, Power BI, Snowflake and dbt**
 
-Yes — here is a simple direct interactive portfolio page for your three projects. You can click each project card directly.
+[![GitHub](https://img.shields.io/badge/GitHub-gawandeshil03--ops-181717?style=for-the-badge\&logo=github)](https://github.com/gawandeshil03-ops)
+[![Projects](https://img.shields.io/badge/Explore-Projects-0A66C2?style=for-the-badge)](#-featured-projects)
 
-Wiring the controls
-Give feedback
-what i paste it in github readme
+</div>
 
-Paste the Markdown README, not the interactive page I showed above. That interactive page works inside ChatGPT; GitHub README.md does not support arbitrary JavaScript.
+---
 
-The easiest option is to use the clean README file I already created:
+# 👋 Portfolio Overview
 
-Download README.md
+This portfolio presents three end-to-end analytics projects covering different business domains:
 
-Then on GitHub:
+* ☁️ **SaaS Business & IT Operations Analytics**
+* 🚚 **SupplyIQ — Supply Chain Analytics**
+* 🧪 **A/B Testing for Marketing**
 
-Open your main portfolio repository.
-Click Add file → Create new file.
-Name it exactly README.md.
-Open the downloaded README.md.
-Copy everything inside it.
-Paste it into GitHub.
-Click Preview to make sure headings, tables, buttons, and Mermaid diagrams render normally.
-Click Commit changes.
+The projects demonstrate the complete analytical workflow:
 
-Do not paste this around it:
-
-```markdown
-
-or a final:
-
+```text
+Business Problem
+       ↓
+Data Collection
+       ↓
+Data Cleaning & Validation
+       ↓
+SQL / Python Analysis
+       ↓
+Data Modeling
+       ↓
+Business KPIs
+       ↓
+Power BI / Visualization
+       ↓
+Insights
+       ↓
+Business Decision
 ```
 
-Those outer backticks are what caused the entire README to display as code before.
+---
 
-README.md
-Document
+# 🧭 Explore Projects
 
-Library
-/
-README.md
+| #  | Project                                        | Focus                                        | Repository                                                                             |
+| -- | ---------------------------------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 01 | ☁️ **SaaS Business & IT Operations Analytics** | Revenue, Churn, Retention, Customer Health   | [Explore ↓](#01--️-saas-business--it-operations-analytics)                             |
+| 02 | 🚚 **SupplyIQ — Supply Chain Analytics**       | Inventory, Suppliers, Stockouts, Forecasting | [Open Project →](https://github.com/gawandeshil03-ops/SupplyIQ-Supply-Chain-Analytics) |
+| 03 | 🧪 **A/B Testing for Marketing**               | Experimentation, Conversion, ARPU            | [Open Project →](https://github.com/gawandeshil03-ops/AB-Testing-for-Marketing)        |
 
-<div align="center">
+---
 
-📊 Shil Gawande — Data & BI Analytics Portfolio
-Data Analyst • BI Analyst • SQL • Python • Power BI • Excel
+# 🔄 Portfolio Architecture
 
-Transforming raw business data into measurable insights, interactive dashboards, and data-driven decisions.
-
-<br>
-
-
-
-
-
-
-📍 Pune, Maharashtra, India
-
-</div>
-
-👨‍💻 About Me
-
-I am Shil Gawande, a 2026 engineering graduate building practical expertise in Data Analytics and Business Intelligence.
-
-My work focuses on using SQL, Python, Excel, Power BI, Pandas, and MySQL to clean and validate data, analyze business performance, define meaningful KPIs, build dashboards, and translate analytical findings into business recommendations.
-
-This portfolio demonstrates analytics across three business areas:
-
-📊 SaaS & Business Operations Analytics
-🚚 Supply Chain & Operations Analytics
-🧪 Marketing Experimentation & A/B Testing
-
-Business Problem → Raw Data → Cleaning → SQL/Python Analysis → KPIs → Visualization → Insights → Decision
-
-🚀 Featured Analytics Projects
-📊 SaaS Business & IT Operations Analytics
-
-Stack: Python SQL MySQL Pandas Power BI Excel
-
-Customer, subscription, revenue, churn, retention, product-usage, and support analytics.
-
-
-
-
-🚚 SupplyIQ — Supply Chain Analytics
-
-Stack: Python SQL Pandas Power BI
-
-Inventory, supplier, warehouse, shipment, OTIF, fill-rate, revenue, and profitability analytics.
-
-
-
-
-🧪 A/B Testing for Marketing
-
-Stack: Python SQL Pandas Experimentation
-
-Control-vs-treatment analysis, conversion measurement, experiment lift, segmentation, and business recommendations.
-
-
-
-
-🧭 Portfolio Architecture
-flowchart LR
-    A["📁 Raw Business Data"] --> B["🧹 Data Cleaning & Validation"]
-    B --> C["🐍 Python / Pandas"]
-    B --> D["🗄️ SQL / MySQL"]
-    C --> E["📊 Exploratory Analysis"]
-    D --> E
-    E --> F["🎯 KPI Development"]
-    F --> G["📈 Power BI Dashboards"]
-    F --> H["🧪 Experiment Analysis"]
-    G --> I["💡 Business Insights"]
-    H --> I
-    I --> J["🎯 Data-Driven Decisions"]
-01 — 📊 SaaS Business & IT Operations Analytics
-Business Problem
-
-SaaS businesses generate information across customers, subscriptions, payments, product usage, and support operations.
-
-Important questions include:
-
-How is revenue changing?
-Which customers are churning?
-How effectively are customers using the product?
-What factors influence retention?
-How are support operations performing?
-Which KPIs should management monitor?
-Solution
-
-The project combines SaaS business datasets into an analytical workflow using:
-
-Excel → Python/Pandas → MySQL/SQL → Power BI
-
-Analysis Areas
-Customer analytics
-Subscription analytics
-Revenue performance
-Churn analysis
-Retention
-Product usage
-Support operations
-Customer behavior
-Business KPIs
-SQL Capabilities
-Joins
-CTEs
-Window functions
-Aggregations
-Customer-level analysis
-Revenue calculations
-KPI queries
-Project Workflow
-flowchart LR
-A["Customers"] --> F["Data Integration"]
-B["Subscriptions"] --> F
-C["Payments"] --> F
-D["Product Usage"] --> F
-E["Support"] --> F
-F --> G["Python Cleaning"]
-G --> H["MySQL"]
-H --> I["SQL Analytics"]
-I --> J["Revenue"]
-I --> K["Churn"]
-I --> L["Retention"]
-I --> M["Usage KPIs"]
-J --> N["Power BI"]
-K --> N
-L --> N
-M --> N
-N --> O["Business Insights"]
-🔗 Repository
-
-
-
-
-02 — 🚚 SupplyIQ: Supply Chain Analytics
-Business Problem
-
-Supply-chain performance depends on connected areas including inventory, orders, suppliers, warehouses, shipments, service levels, costs, revenue, and profitability.
-
-Key KPIs
-KPI	Business Purpose
-OTIF	Orders delivered on time and in full
-Fill Rate	Ability to satisfy demand
-Inventory Turnover	Inventory efficiency
-Order Cycle Time	Fulfillment speed
-Revenue	Commercial performance
-Profitability	Financial contribution
-Supplier Performance	Supplier reliability
-Warehouse Performance	Operational efficiency
-Analysis Areas
-Inventory analysis
-Supplier analysis
-Warehouse performance
-Shipment analysis
-Order fulfillment
-Revenue analysis
-Profitability analysis
-Operational KPI monitoring
-SupplyIQ Workflow
+```mermaid
 flowchart TD
-A["📦 Supply Chain Data"]
-A --> B["Products"]
-A --> C["Inventory"]
-A --> D["Suppliers"]
-A --> E["Orders"]
-A --> F["Shipments"]
-A --> G["Warehouses"]
-B --> H["Python + SQL Analysis"]
-C --> H
-D --> H
-E --> H
-F --> H
-G --> H
-H --> I["OTIF"]
-H --> J["Fill Rate"]
-H --> K["Inventory Turnover"]
-H --> L["Order Cycle Time"]
-H --> M["Revenue & Profit"]
-I --> N["Power BI Dashboard"]
-J --> N
-K --> N
-L --> N
-M --> N
-N --> O["Operational Insights"]
-🔗 Repository
 
+A[Business Analytics Portfolio]
 
+A --> B[SaaS Business Problems]
+A --> C[Supply Chain Problems]
+A --> D[Product Experimentation]
 
+B --> B1[Revenue]
+B --> B2[Churn]
+B --> B3[Retention]
+B --> B4[Customer Health]
 
-03 — 🧪 A/B Testing for Marketing
-Business Problem
+C --> C1[Stockouts]
+C --> C2[Supplier Reliability]
+C --> C3[Spoilage]
+C --> C4[Demand Forecasting]
 
-Marketing and product teams need evidence before deciding whether a new campaign, feature, design, or strategy performs better than the existing approach.
+D --> D1[Conversion Rate]
+D --> D2[ARPU]
+D --> D3[Statistical Significance]
+D --> D4[Rollout Decision]
 
-Experiment Questions
-Does the treatment outperform the control?
-What is the conversion rate of each group?
-What is the observed experiment lift?
-Do different customer segments behave differently?
-Should the business adopt the tested change?
-Experiment Workflow
-flowchart LR
-A["🧪 Experiment Dataset"] --> B["Data Validation"]
-B --> C["Data Cleaning"]
-C --> D["Control Group"]
-C --> E["Treatment Group"]
-D --> F["Control Conversion"]
-E --> G["Treatment Conversion"]
-F --> H["Performance Comparison"]
-G --> H
-H --> I["Experiment Lift"]
-I --> J["Segment Analysis"]
-J --> K["Business Recommendation"]
-Analysis Areas
-Control vs Treatment
-Conversion Rate
-Experiment Lift
-Segment Performance
-Campaign Analysis
-Data Validation
-Business Interpretation
-🔗 Repository
-
-
-
-
-🔗 How The Projects Connect
-flowchart TD
-A["📊 Data & BI Analytics Portfolio"]
-A --> B["SaaS Analytics"]
-A --> C["Supply Chain Analytics"]
-A --> D["A/B Testing"]
-
-B --> B1["Revenue"]
-B --> B2["Churn"]
-B --> B3["Retention"]
-B --> B4["Product Usage"]
-
-C --> C1["Inventory"]
-C --> C2["OTIF"]
-C --> C3["Suppliers"]
-C --> C4["Profitability"]
-
-D --> D1["Control"]
-D --> D2["Treatment"]
-D --> D3["Conversion"]
-D --> D4["Experiment Lift"]
-
-B1 --> E["Business Intelligence"]
+B1 --> E[Business Intelligence]
 C1 --> E
-D3 --> E
-E --> F["💡 Actionable Insights"]
-F --> G["🎯 Data-Driven Decisions"]
-🛠️ Technical Skills
-Category	Technologies / Skills
-Programming	Python
-Data Analysis	Pandas, NumPy, EDA, Data Cleaning
-Database	SQL, MySQL
-Advanced SQL	Joins, CTEs, Window Functions, Aggregations
-Business Intelligence	Power BI
-Spreadsheet Analytics	Excel
-Analytics	KPI Analysis, Churn, Retention, Segmentation
-Experimentation	A/B Testing, Conversion Analysis
-Tools	Git, GitHub
-Domains	SaaS, Supply Chain, Marketing Analytics
-🧩 Problem → Project → Capability
-Business Problem	Portfolio Project	Capability
-Understand SaaS performance	SaaS Business & IT Operations Analytics	SQL + Python + Power BI
-Analyze revenue and customer behavior	SaaS Analytics	Business Analytics
-Identify churn and retention patterns	SaaS Analytics	Customer Analytics
-Improve supply-chain visibility	SupplyIQ	Operational Analytics
-Monitor inventory and suppliers	SupplyIQ	Supply Chain BI
-Measure OTIF and Fill Rate	SupplyIQ	KPI Development
-Evaluate marketing changes	A/B Testing	Experimentation
-Measure conversion improvement	A/B Testing	Conversion Analytics
-Convert raw data into insights	All Projects	Data Analysis
-Communicate findings	SaaS + SupplyIQ	Power BI
-🎯 Target Roles
-Data Analyst
-Junior Data Analyst
-BI Analyst
-Business Intelligence Analyst
-Analytics Intern
-Business Analyst
-Product Analyst
-Operations Analyst
-Supply Chain Analyst
-Marketing Analyst
-💼 Recruiter Quick View
-What can I do?
+D1 --> E
+```
 
-I can take an analytical problem from raw data to business recommendation:
+---
 
-Raw Data → Cleaning & Validation → Python/Pandas → SQL Analysis → Business KPIs → Power BI/Experiment Analysis → Insights → Recommendation
+# 🚀 Featured Projects
 
-What does this portfolio demonstrate?
+# 01 | ☁️ SaaS Business & IT Operations Analytics
 
-Technical
+> **Enterprise analytics engineering and business intelligence platform for SaaS revenue, subscriptions, churn, retention, product usage, support operations and customer health.**
 
-SQL querying
-Python data analysis
-Data cleaning
-Data validation
-Relational analysis
-Power BI dashboarding
+### 🔴 Problem
 
-Analytical
+A SaaS business needs a reliable analytical system to understand:
 
-KPI development
-Churn analysis
-Retention analysis
-Supply-chain analytics
-Experiment analysis
-Conversion analysis
+* Which plans generate the most recurring revenue
+* How MRR and ARR change
+* Which customers are likely to churn
+* Which signup cohorts retain best
+* Whether product usage affects retention
+* Whether support burden correlates with churn
+* Which accounts require intervention
 
-Business
+### 🟢 Solved
 
-Translating data into insights
-Identifying performance patterns
-Communicating analytical findings
-Supporting data-driven decisions
-📂 Project Directory
-#	Project	Domain	Stack	Repository
-01	SaaS Business & IT Operations Analytics	SaaS / Business	Python, SQL, MySQL, Power BI, Excel	Open →
-02	SupplyIQ — Supply Chain Analytics	Supply Chain	Python, SQL, Power BI	Open →
-03	A/B Testing for Marketing	Marketing / Experimentation	Python, SQL, Pandas	Open →
-🎓 Education
-Bachelor of Engineering — Electronics & Telecommunication
+Built a multi-layer analytics architecture transforming raw SaaS data into business-ready analytical models and KPI reporting.
 
-2022 – 2026
+### 🏗️ Architecture
 
-Sant Gadge Baba Amravati University
+```mermaid
+flowchart LR
 
-🏅 Certifications
-Tata — GenAI Data Analytics Job Simulation
-Tata — Data Visualization: Empowering Business with Effective Insights
-Deloitte Australia — Data Analytics Job Simulation
-🌐 Languages
+A[Raw SaaS CSV Files]
+--> B[Snowflake RAW]
 
-English • Hindi • Marathi
+B --> C[Snowflake CLEAN]
 
-📫 Contact
+C --> D[Analytics Layer]
+
+D --> E[dbt Staging]
+
+E --> F[dbt Marts]
+
+F --> G[KPI Reporting Views]
+
+G --> H[Python EDA]
+
+G --> I[Power BI]
+
+H --> J[Business Insights]
+I --> J
+
+J --> K[Decision Support]
+```
+
+### 📊 Analytics Covered
+
+**Revenue Analytics**
+
+* Monthly Recurring Revenue
+* Annual Recurring Revenue
+* Revenue by plan
+* Active subscriptions
+* New subscriptions
+
+**Customer Analytics**
+
+* Churn
+* Retention
+* Signup cohorts
+* Customer segmentation
+* Account health
+
+**Product Analytics**
+
+* Feature usage
+* Engagement
+* Usage intensity
+* Error analysis
+
+**Support Analytics**
+
+* Ticket volume
+* Resolution time
+* First-response time
+* Escalations
+* Customer satisfaction
+
+### 🧱 Data Modeling
+
+The project implements:
+
+```text
+RAW
+ ↓
+CLEAN
+ ↓
+DIMENSIONS + FACT TABLES
+ ↓
+ANALYTICS MARTS
+ ↓
+REPORTING VIEWS
+ ↓
+POWER BI
+```
+
+Fact tables include:
+
+* `FACT_SUBSCRIPTION_MONTHLY`
+* `FACT_USAGE_MONTHLY`
+* `FACT_SUPPORT_MONTHLY`
+
+Dimension models include:
+
+* `DIM_ACCOUNT`
+* `DIM_SUBSCRIPTION`
+* `DIM_FEATURE`
+
+### 🛠️ Technology
+
+`Snowflake` `SQL` `dbt` `Python` `Pandas` `NumPy` `Jupyter` `Power BI`
 
 <div align="center">
 
-Shil Gawande
+### 📂 YOU ARE CURRENTLY INSIDE THIS PROJECT
 
-📍 Pune, Maharashtra, India
+**Explore the folders, SQL models, dbt project, notebooks, architecture and BI assets in this repository.**
 
-📱 +91 9172937014
-
-📧 gawandeshil9@gmail.com
-
-💻 GitHub: github.com/gawandeshil03-ops
-
-<br>
-
-
-
-
+[![Repository](https://img.shields.io/badge/Explore-SaaS_Analytics-29B5E8?style=for-the-badge\&logo=github)](https://github.com/gawandeshil03-ops/Avacasa-Portfolio)
 
 </div>
 
+---
+
+# 02 | 🚚 SupplyIQ — Supply Chain Analytics
+
+> **End-to-end retail inventory and supply-chain analytics system for identifying stockout drivers, supplier risk, spoilage and inventory optimization opportunities.**
+
+### 🔴 Problem
+
+A multi-region retailer experiences:
+
+* Lost sales from stockouts
+* Excess inventory
+* Product spoilage
+* Supplier delays
+* Unreliable suppliers
+* Poorly configured reorder points
+
+Management needs to determine **why these problems occur and where action should be taken**.
+
+### 🟢 Solved
+
+Developed a supply-chain analytics workflow covering:
+
+* **52 weeks**
+* **16 stores**
+* **30 products**
+* **10 suppliers**
+
+The project traces inventory problems back to supplier, product, category and regional drivers.
+
+### 🏗️ Workflow
+
+```mermaid
+flowchart LR
+
+A[Inventory Data]
+--> E[Python Cleaning]
+
+B[Store Data]
+--> E
+
+C[Product Data]
+--> E
+
+D[Supplier Data]
+--> E
+
+E --> F[SQL Analysis]
+
+F --> G[KPI Engine]
+
+G --> H[Root Cause Analysis]
+
+H --> I[Demand Forecast]
+
+H --> J[Power BI Dataset]
+
+I --> K[Inventory Recommendations]
+
+J --> K
+```
+
+### 📈 Key Findings
+
+| KPI / Finding                |                    Result |
+| ---------------------------- | ------------------------: |
+| Overall Fill Rate            |                 **98.2%** |
+| Overall Stockout Rate        |                  **1.8%** |
+| Highest Stockout Category    |        **Packaged Foods** |
+| Packaged Foods Stockout Rate |                  **2.2%** |
+| Forecast Method              | **4-week Moving Average** |
+| Forecast Error               |              **~7% MAPE** |
+
+Supplier reliability emerged as an important stockout-risk signal.
+
+Spoilage was heavily concentrated in **perishable products**, suggesting targeted inventory policies rather than a catalog-wide intervention.
+
+### 💡 Business Recommendations
+
+```text
+Supplier Performance
+        ↓
+Reliability Analysis
+        ↓
+Inventory Risk
+        ↓
+Reorder Strategy
+        ↓
+Demand Forecast
+        ↓
+Reduced Stockouts / Spoilage
+```
+
+### 🛠️ Technology
+
+`SQL` `Python` `Pandas` `NumPy` `Matplotlib` `Power BI` `DAX`
+
 <div align="center">
 
-📊 From Data to Decisions
-SQL • Python • Power BI • Excel • Business Analytics
+## 👇 OPEN FULL PROJECT
 
-SaaS Analytics • Supply Chain Analytics • Experimentation
+[![Open SupplyIQ](https://img.shields.io/badge/OPEN-SupplyIQ_Supply_Chain_Analytics-2E8B57?style=for-the-badge\&logo=github)](https://github.com/gawandeshil03-ops/SupplyIQ-Supply-Chain-Analytics)
 
-⭐ Explore the projects above to see the complete analytical workflows.
+### 🔗 [SupplyIQ — Supply Chain Analytics →](https://github.com/gawandeshil03-ops/SupplyIQ-Supply-Chain-Analytics)
+
+</div>
+
+---
+
+# 03 | 🧪 A/B Testing for Marketing
+
+> **End-to-end experimentation project evaluating whether adding Apple Pay and Google Pay to checkout improves conversion and revenue.**
+
+### 🔴 Problem
+
+An e-commerce company wants to introduce a new payment experience.
+
+Before deploying it to every customer, the business needs to determine:
+
+> **Does the new payment experience actually increase conversion and revenue?**
+
+### 🟢 Solved
+
+Designed an A/B experiment using:
+
+**Primary Metric**
+
+```text
+Conversion Rate
+```
+
+**Secondary Metric**
+
+```text
+Average Revenue Per User (ARPU)
+```
+
+Users were randomly divided:
+
+```text
+                    USERS
+                      │
+             ┌────────┴────────┐
+             │                 │
+          CONTROL           VARIANT
+             A                 B
+             │                 │
+      Existing Checkout   New Payment UX
+             │                 │
+             └────────┬────────┘
+                      │
+                Compare Results
+                      │
+              Statistical Tests
+                      │
+               Rollout Decision
+```
+
+### 🧪 Experiment Workflow
+
+```mermaid
+flowchart LR
+
+A[Business Hypothesis]
+
+A --> B[Define CR + ARPU]
+
+B --> C[Calculate Sample Size]
+
+C --> D[50/50 Random Assignment]
+
+D --> E[Collect Experiment Events]
+
+E --> F[SRM Validation]
+
+F --> G[A/A Testing]
+
+G --> H[CR Statistical Test]
+
+G --> I[ARPU Statistical Test]
+
+H --> J[Power BI]
+
+I --> J
+
+J --> K[Rollout Decision]
+```
+
+### 📊 Experiment Results
+
+| Metric          | Control A | Variant B |
+| --------------- | --------: | --------: |
+| Conversion Rate |  **0.66** |  **0.69** |
+| ARPU            | **16.20** | **17.88** |
+
+### Statistical Results
+
+**Conversion Rate**
+
+```text
+p-value = 0.00076
+```
+
+Statistically significant.
+
+**ARPU**
+
+```text
+p-value = 0.01
+```
+
+Statistically significant.
+
+### 🎯 Business Decision
+
+Both conversion rate and ARPU improved significantly.
+
+**Recommendation:**
+
+> Roll out the new payment experience to users based on the statistically significant experiment results.
+
+### 🛠️ Technology
+
+`Python` `Pandas` `NumPy` `SciPy` `SQL Server` `SQLAlchemy` `Power BI` `Statistics`
+
+<div align="center">
+
+## 👇 OPEN FULL PROJECT
+
+[![Open AB Testing](https://img.shields.io/badge/OPEN-A%2FB_Testing_for_Marketing-8A2BE2?style=for-the-badge\&logo=github)](https://github.com/gawandeshil03-ops/AB-Testing-for-Marketing)
+
+### 🔗 [A/B Testing for Marketing →](https://github.com/gawandeshil03-ops/AB-Testing-for-Marketing)
+
+</div>
+
+---
+
+# 🧠 Skills Demonstrated
+
+| Area                         | Skills                                                 |
+| ---------------------------- | ------------------------------------------------------ |
+| 📊 **Data Analytics**        | EDA, cleaning, validation, KPI analysis                |
+| 🗄️ **SQL**                  | Analytical SQL, transformations, KPI views             |
+| 🐍 **Python**                | Pandas, NumPy, SciPy, Matplotlib                       |
+| 📈 **Business Intelligence** | Power BI, DAX, dashboards                              |
+| ❄️ **Data Warehousing**      | Snowflake, RAW/CLEAN/ANALYTICS architecture            |
+| 🔧 **Analytics Engineering** | dbt, staging, marts, dimensional models                |
+| 🧪 **Experimentation**       | A/B testing, MDE, sample sizing, SRM, A/A testing      |
+| 🚚 **Supply Chain**          | Inventory, suppliers, stockouts, spoilage, forecasting |
+| ☁️ **SaaS Analytics**        | MRR, ARR, churn, retention, account health             |
+| 🎯 **Decision Support**      | Root-cause analysis and business recommendations       |
+
+---
+
+# 🎯 Recruiter Quick Navigation
+
+### Looking for a Data / BI Analyst?
+
+Explore all three projects.
+
+### Looking for SaaS / Business Intelligence skills?
+
+➡️ **SaaS Business & IT Operations Analytics**
+
+### Looking for Supply Chain Analytics?
+
+➡️ [**SupplyIQ →**](https://github.com/gawandeshil03-ops/SupplyIQ-Supply-Chain-Analytics)
+
+### Looking for Product / Growth Analytics?
+
+➡️ [**A/B Testing for Marketing →**](https://github.com/gawandeshil03-ops/AB-Testing-for-Marketing)
+
+---
+
+# 🛠️ Technology Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge\&logo=snowflake\&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge\&logo=dbt\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+
+</div>
+
+---
+
+# 🔗 Project Directory
+
+<div align="center">
+
+### ☁️ SaaS Analytics
+
+[![SaaS](https://img.shields.io/badge/01-SaaS_Business_%26_IT_Analytics-29B5E8?style=for-the-badge)](https://github.com/gawandeshil03-ops/Avacasa-Portfolio)
+
+### 🚚 Supply Chain
+
+[![SupplyIQ](https://img.shields.io/badge/02-SupplyIQ-2E8B57?style=for-the-badge)](https://github.com/gawandeshil03-ops/SupplyIQ-Supply-Chain-Analytics)
+
+### 🧪 Product Experimentation
+
+[![AB Testing](https://img.shields.io/badge/03-A%2FB_Testing-8A2BE2?style=for-the-badge)](https://github.com/gawandeshil03-ops/AB-Testing-for-Marketing)
+
+---
+
+## From Business Question → Data → Insight → Decision
+
+**Thanks for exploring my analytics portfolio.**
 
 </div>
