@@ -1,0 +1,1 @@
+# Baby Opportunity Finder 💗\n\nFlutter Android job-search companion for a 2026 E&TC fresher.\n\nDefaults: India/Pune, low/no-code, ₹3 LPA+ when disclosed, fresher/0–1 years; sales/BD/cold-calling/marketing excluded.\n
