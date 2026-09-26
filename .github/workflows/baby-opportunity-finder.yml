@@ -1,0 +1,20 @@
+name: Build Baby Opportunity Finder APK
+on:
+  push:
+    paths: ['baby_opportunity_finder/**','.github/workflows/baby-opportunity-finder.yml']
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: baby_opportunity_finder}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with: {flutter-version: '3.35.2', channel: stable, cache: true}
+      - run: flutter create --platforms=android --org com.shilgawande .
+      - run: flutter pub add url_launcher
+      - run: flutter build apk --debug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: baby-opportunity-finder-apk
+          path: baby_opportunity_finder/build/app/outputs/flutter-apk/app-debug.apk
